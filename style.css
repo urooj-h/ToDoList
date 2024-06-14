@@ -10,7 +10,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url("../ToDoList/images/IMG_3400.jpeg") no-repeat center fixed; 
+    background: url("IMG_3400.jpeg") no-repeat center fixed; 
     background-size: cover;
     height: 100vh;
     margin: 0; 
@@ -132,7 +132,7 @@
   }
   
   .todo:hover input:checked + span::before, input:checked + span::before {
-    background: url(../ToDoList/images/check.svg) 50% 50% no-repeat #e6b7eca1;
+    background: url(check.svg) 50% 50% no-repeat #e6b7eca1;
     border-color: #e6b7eca1;
   }
   
