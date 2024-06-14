@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../ToDoList/style.css">
+    <script defer src="../ToDoList/script.js"></script>
+    <script src="https://kit.fontawesome.com/ae74ee7411.js" crossorigin="anonymous"></script>
+    <title>To Do List</title>
+</head>
+<body>
+    <div class="container">
+        <h1>To Do List</h1>
+        <div class="input-container">
+            <input class="todo-input" placeholder="Press enter to add a new task...">
+            <button class="add-button">
+                <i class="fa-solid fa-plus"></i>
+            </button>
+        </div>
+        <div class="filters">
+            <div class="filter" data-filter="completed">Completed</div>
+            <div class="filter" data-filter="pending">Incomplete</div>
+            <div class="delete-all">Delete All</div>
+        </div>
+        <div class="todos-container">
+            <ul class="todos"></ul>
+            <img class="empty-image" src="../ToDoList/images/empty.svg">
+        </div>
+    </div>
+</body>
+</html>
+
+
+
